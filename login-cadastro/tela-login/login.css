@@ -14,9 +14,14 @@ main {
   padding-bottom: 20px;
   max-width: 600px;
   margin: auto;
-  margin-top: 8rem;
-  backdrop-filter: blur(8px);
+  margin-top: 10dvh;
+  backdrop-filter: blur(2px);
   border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  filter: drop-shadow(2px 6px 10px black);
 }
 
 .sessao {
@@ -38,7 +43,7 @@ input {
 }
 
 button {
-  padding: 5px;
+  padding: 8px;
   width: 100px;
   margin: auto;
   background-color: #C7E891;
@@ -65,9 +70,10 @@ footer {
 footer > a {
   text-decoration: none;
   color: rgb(158, 79, 232);
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 footer > a:hover {
   text-decoration: underline;
+  transition: all 0.5s;
 }
