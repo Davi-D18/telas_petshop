@@ -59,6 +59,6 @@ footer {
 }
 
 button:hover {
-  box-shadow: -1px 3px 1px rgb(193, 190, 190);
+  box-shadow: -1px 3px 1px rgb(100, 100, 100);
   transition: all 0.3s;
 }

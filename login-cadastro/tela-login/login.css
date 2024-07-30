@@ -26,6 +26,11 @@ img {
 .sessao {
   display: flex;
   justify-content: center;
+  gap: 5px;
+}
+
+.sessao > input {
+  width: 20px;
 }
 
 form {
@@ -33,6 +38,12 @@ form {
   justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+.login, .senha {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 input {
@@ -53,7 +64,7 @@ button {
 }
 
 button:hover {
-  box-shadow: -1px 3px 1px rgb(193, 190, 190);
+  box-shadow: -1px 3px 1px rgb(100, 100, 100);
   transition: all 0.3s;
 }
 

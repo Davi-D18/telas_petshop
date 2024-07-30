@@ -4,3 +4,82 @@
   font-family: "League spartan";
 }
 
+main {
+  max-width: 1100px;
+  margin: auto;
+}
+
+img {
+  width: 56px;
+  height: 57px;
+}
+
+.barra-lateral {
+  width: 56px;
+  height: 40px;
+}
+
+.logo {
+  width: 126px;
+  height: 132px;
+}
+
+.pesquisa {
+  width: 30px;
+  height: 29px;
+}
+
+header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.barra-de-pesquisa {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.barra-de-pesquisa > input {
+  width: 1000%;
+}
+
+input {
+  width: 30%;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.anuncios {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 6vh;
+}
+
+.anuncios > div {
+  width: 400px;
+  height: 372px;
+  background-color: aqua;
+}
+
+.categorias > div > div {
+  width: 120px;
+  margin-top: 15vh;
+  height: 120px;
+  background-color: black;
+}
+
+.categorias {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+}
