@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  ---fundo: #D9D9D9;
+  ---fundo-produto: #F27A81;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "League Spartan";
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 80vw;
+  margin: auto;
+}
+
+img {
+  width: 46px;
+}
+
+.voltar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.produtos {
+  background-color: var(---fundo);
+  width: 75vw;
+  height: 60vh;
+  margin: auto;
+  display: grid;
+  gap: 6rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+
+  grid-template-columns: repeat(4, 15vw)
+}
+
+.produtos > .produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
+
+.imagem-produto {
+  width: 158px;
+  height: 146px;
+  border-radius: 8px;
+  background-color: var(---fundo-produto);
+}
+
+.imagem-produto:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px black;
+  border: 1px solid black;
+  transform: scale(1.1);
+}
+
+p {
+  text-align: center;
+  margin-top: 2vh;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.imagem-produto > img {
+  width: 50%;
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}

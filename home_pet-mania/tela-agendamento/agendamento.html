@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="agendamento.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="voltar">
+          <a href="../tela-home/home.html"><img src="assets/voltar.png" alt="" /></a>
+          <h1>Agendamento</h1>
+        </div>
+
+        <div class="perfil">
+          <img src="assets/perfil.png" alt="" />
+        </div>
+      </header>
+
+      <form action="submit">
+        <div class="especie">
+          <label for="especie">Qual a espécie do seu pet?</label>
+          <select name="especie" id="especie">
+            <option value="Cachorro">Cachorro</option>
+            <option value="Gato">Gato</option>
+            <option value="Aves">Ave</option>
+            <option value="Outro">Outro</option>
+          </select>
+        </div>
+
+        <div class="servico">
+          <label for="servico">Qual serviço deseja agendar?</label>
+          <select name="servico" id="servico">
+            <option value="banho-e-tosa">Banho e Tosa</option>
+            <option value="Consulta">Consulta</option>
+            <option value="pet-sitting">Pet Sitting</option>
+            <!-- Pet Sitting: Cuidado com os animais em casa enquanto o dono está ausente -->
+            <option value="Outro">Outro</option>
+          </select>
+        </div>
+
+        <div class="data">
+          <label for="data">Selecione uma data disponível:</label>
+          <select name="data-agendamento" id="data">
+            <option value="09/08">9 de Agosto</option>
+            <option value="10/08">10 de Agosto</option>
+            <option value="12/08">12 de Agosto</option>
+            <option value="15/08">5 de Agosto</option>
+            <option value="02/09">2 de Setembro</option>
+            <option value="03/09">3 de Agosto</option>
+          </select>
+        </div>
+
+        <div class="agendar">
+          <button type="submit">Agendar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

@@ -2,6 +2,9 @@
 
 * {
   font-family: "League spartan";
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
 
 main {
@@ -51,7 +54,7 @@ header {
 input {
   width: 30%;
   padding: 15px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .anuncios {
@@ -64,14 +67,32 @@ input {
 .anuncios > div {
   width: 400px;
   height: 372px;
-  background-color: aqua;
+  background-color: rgb(171, 234, 234);
 }
 
-.categorias > div > div {
+.categorias > div > a > img {
   width: 120px;
-  margin-top: 15vh;
   height: 120px;
-  background-color: black;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #D9D9D9;
+}
+
+.categorias > div {
+  margin-top: 15vh;
+}
+
+.categorias > div > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.categorias > div > a > img:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px black;
+  border: 1px solid black;
+  transform: scale(1.1);
 }
 
 .categorias {
@@ -81,5 +102,6 @@ input {
 }
 
 p {
+  margin-top: 2vh;
   text-align: center;
 }

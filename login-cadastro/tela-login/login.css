@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url(https://cdn.wallpapersafari.com/78/36/XjB4g5.jpg);
+  /* background-image: url(https://cdn.wallpapersafari.com/78/36/XjB4g5.jpg); */
+  background-image: url(assets/fundo.jpg);
 }
 
 main {
@@ -14,7 +15,7 @@ main {
   max-width: 600px;
   margin: auto;
   margin-top: 10dvh;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(6px);
   border: 1px solid black;
 }
 
