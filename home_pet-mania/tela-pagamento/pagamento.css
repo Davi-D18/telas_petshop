@@ -14,10 +14,9 @@ header {
 main {
     border-radius: 8px;
     padding-bottom: 20px;
-    max-width: 800px;
+    max-width: 80vw;
     margin: auto;
     margin-top: 4rem;
-    backdrop-filter: blur(8px);
   }
 
 
@@ -54,21 +53,18 @@ button:hover {
 
 .pix, .comopix {
     flex:1;
-    padding:20px;
-    align-items: center;
-    justify-content: center;
-  
+    margin:20px;
 }
 
 .pix {
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin-top: 5vh;
 }
 
 .instrucao > h2 {
     font-weight: 300;
     margin-left: 50px;
     font-size: 25px;
-
 }
 
 
