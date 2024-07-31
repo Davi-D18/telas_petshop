@@ -9,8 +9,14 @@
 
 .perfil {
     display: flex;
+    align-items: center;
     gap: 30px;
+    margin-top: 2rem;
 
+}
+
+.foto h2 {
+    margin-top: 20px;
 }
 
 main {
