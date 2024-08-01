@@ -8,14 +8,18 @@
   </head>
   <body>
     <header>
-      <img class="barra-lateral" src="assets/barra-lateral.png" alt="">
+      <!-- <img class="barra-lateral" src="assets/barra-lateral.png" alt=""> -->
       <img class="logo" src="assets/logo_petshop.png" alt="">
       <div class="barra-de-pesquisa">
-        <input type="text">
-        <img class="pesquisa" src="assets/pesquisa.png" alt="">
+        <input type="search" placeholder="Buscar" id="produtos" list="lista-produtos">
+        <datalist id="lista-produtos">
+          <option value="racao">Ração</option>
+          <option value="brinquedos">Brinquedos</option>
+        </datalist>
+        <a href="../tela-resultados-pesquisa/"><img class="pesquisa" src="assets/pesquisa.png" alt=""></a>
       </div>
-      <img src="assets/perfil.png" alt="">
-      <img src="assets/carrinho.png" alt="">
+      <a href="../tela-perrfil/perfil.html"><img src="assets/perfil.png" alt=""></a>
+      <a href="../tela-carrinho/carrinho.html"><img src="assets/carrinho.png" alt=""></a>
     </header>
     <main>
 
@@ -26,31 +30,31 @@
 
       <section class="categorias">
         <div>
-         <a href="">
+         <a href="../tela-categorias/categorias.html">
           <img src="assets/produtos/diversao.png" alt="">
           <p>Diversão</p>
          </a>
         </div>
         <div>
-          <a href="">
+          <a href="../tela-categorias/categorias.html">
             <img src="assets/produtos/medicamento.png" alt="">
             <p>Medicações</p>
           </a>
         </div>
         <div>
-          <a href="">
+          <a href="../tela-categorias/categorias.html">
             <img src="assets/produtos/alimentacao.png" alt="">
             <p>Alimentação</p>
           </a>
         </div>
         <div>
-          <a href="">
+          <a href="../tela-agendamento/agendamento.html">
             <img src="assets/produtos/agendamentos.png" alt="">
             <p>Agendamentos</p>
           </a>
         </div>
         <div>
-          <a href="">
+          <a href="../tela-categorias/categorias.html">
             <img src="assets/produtos/utensilios.png" alt="">
             <p>Utensilios</p>
           </a>

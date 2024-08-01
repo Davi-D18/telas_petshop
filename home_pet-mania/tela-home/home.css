@@ -8,8 +8,9 @@
 }
 
 main {
-  max-width: 1100px;
+  max-width: 80vw;
   margin: auto;
+  margin-bottom: 5vh;
 }
 
 .anuncios div img {
@@ -39,14 +40,14 @@ img {
 }
 
 header {
-  display: inline-flex;
+  display: flex;
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .barra-de-pesquisa {
-  width: 30%;
+  width: 55%;
   display: flex;
   align-items: center;
   justify-content: center;
