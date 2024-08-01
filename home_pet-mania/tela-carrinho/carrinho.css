@@ -12,9 +12,10 @@ header {
 
 .voltar {
   display: flex;
-  gap: 45px;
   align-items: center;
-
+}
+.voltar h1 {
+  margin-left: -2rem;
 }
 
 /* Rações */
