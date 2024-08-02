@@ -37,6 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5vh;
+  margin-top: 4vh;
 }
 
 .categorias {
