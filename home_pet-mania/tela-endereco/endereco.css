@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  font-family: "League Spartan";
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    justify-content:left;
+    margin-bottom: 20px;
+    gap:20px;
+}
+
+main {
+  border-radius: 8px;
+  padding-bottom: 20px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 4rem;
+  backdrop-filter: blur(8px);
+}
+
+form {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+input {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgb(221, 217, 217);
+}
+
+button {
+  padding: 5px;
+  width: 100px;
+  margin: auto;
+  background-color: #C7E891;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+button:hover {
+  box-shadow: -1px 3px 1px rgb(193, 190, 190);
+  transition: all 0.3s;
+}
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+footer > a {
+  text-decoration: none;
+  color: rgb(158, 79, 232);
+  font-weight: bold;
+}
+
+footer > a:hover {
+  text-decoration: underline;
+}
+
+.cep, .rua, .bairro, .pontodereferencia, .numero, .complemento, .estado, .cidade {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+}
+.cidade, .rua, .bairro, .pontodeferencia, .numero, .complemento, .estado, .cidade, label {
+    margin-bottom: 5px;
+}
+
+.cep-ponto {
+    margin-top: 15px;
+}

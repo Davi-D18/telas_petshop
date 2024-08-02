@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "League Spartan";
+}
+
+main {
+  max-width: 80vw;
+  margin: auto;
+}
+
+header {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+}
+.voltar {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.perfil > img {
+  width: 46px;
+}
+
+form {
+  margin-top: 10vh;
+  margin-left: 6vw;
+}
+
+.especie, .servico, .data {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin-bottom: 8vh;
+}
+
+form > div > select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+select:focus {
+  box-shadow: 1px 1px 1px black;
+  transition: all 0.3s;
+}
+
+button {
+  padding: 8px;
+  width: 100px;
+  margin: auto;
+  background-color: #C7E891;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+}

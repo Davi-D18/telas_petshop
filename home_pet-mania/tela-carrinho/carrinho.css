@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  font-family: "league spartan";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.voltar {
+  display: flex;
+  align-items: center;
+}
+.voltar h1 {
+  margin-left: -2rem;
+}
+
+/* Rações */
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+
+  padding: 8px;
+  border-radius: 6px;
+  font-size: larger;
+}
+
+.checkbox {
+  display: flex;
+  gap: 5px;
+}
+
+.botaovoltar {
+  background-color: #ffffff;
+}
+
+table {
+  width: 100%;
+
+}
+
+thead {
+  tr {}
+
+  th {
+    text-align: left;
+    text-transform: uppercase;
+    color: 666;
+
+  }
+}
+
+tbody {
+  td {}
+}
+
+.produto {
+  display: flex;
+  align-items: center;
+
+
+  img {
+    border-radius: 5px;
+    border: #ccc 2px solid;
+  }
+}
+
+.info {
+  margin-left: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.tabelapdt {}
+
+table,
+footer {
+  max-width: 80vw;
+  margin: auto;
+}
+
+aside {
+  .box {
+    margin-bottom: 15px;
+
+
+
+    header {
+      padding: 5px;
+      margin-top: 66px;
+      font-size: 20px;
+    }
+
+    .infor {}
+
+    footer {}
+  }
+
+  .buy {
+    padding: 8px;
+    width: 100px;
+    margin: auto;
+    background-color: #C7E891;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+}
+
+aside {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.retirar {
+  display: flex;
+}
+
+.resumodacompra {
+  margin-top: 50px;
+}
+
+.subtotal,
+.real {
+  font-weight: bolder;
+}
+
+.frete {
+  color: #93b955;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+.truck {
+  width: 30px;
+}
+.valor {
+  color: #425c18;
+  font-weight: bolder;
+  margin-left: 5px;
+}
