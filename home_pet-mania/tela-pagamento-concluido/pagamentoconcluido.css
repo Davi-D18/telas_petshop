@@ -1,31 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 
 * {
   font-family: "League Spartan";
 }
 
+body {
+  cursor: url("assets/Pusheen\ Writes\ a\ Wish\ List\ for\ Christmas\ Animated--pointer--SweezyCursors.cur"), auto;
+}
+
 main {
-    border-radius: 8px;
-    padding-bottom: 20px;
-    max-width: 600px;
-    margin: auto;
-    margin-top: 8rem;
-    backdrop-filter: blur(8px);
-    padding: 2rem;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 8rem;
+  backdrop-filter: blur(8px);
+  padding: 2rem;
 }
 
 button {
-    padding: 5px;
-    width: 100px;
-    margin: auto;
-    background-color: #C7E891;
-    font-weight: bold;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 1px solid black;
+  padding: 5px;
+  width: 100px;
+  margin: auto;
+  background-color: #c7e891;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 button:hover {
-    box-shadow: -1px 3px 1px rgb(193, 190, 190);
-    transition: all 0.3s;
-  }
+  box-shadow: -1px 3px 1px rgb(193, 190, 190);
+  transition: all 0.3s;
+}

@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="agendamento.css" />
   </head>
   <body>
+    <header>
+      <div class="voltar">
+        <a href="../tela-home/home.html"><img src="assets/voltar.png" alt="" /></a>
+      </div>
+      
+      <div class="perfil">
+        <a href="../tela-perrfil/perfil.html"><img src="assets/perfil.png" alt="" /></a>
+      </div>
+    </header>
     <main>
-      <header>
-        <div class="voltar">
-          <a href="../tela-home/home.html"><img src="assets/voltar.png" alt="" /></a>
-          <h1>Agendamento</h1>
-        </div>
-
-        <div class="perfil">
-          <img src="assets/perfil.png" alt="" />
-        </div>
-      </header>
-
+      <h1>Agendamento</h1>
+      
       <form action="submit">
         <div class="especie">
           <label for="especie">Qual a espécie do seu pet?</label>
@@ -53,10 +53,10 @@
           </select>
         </div>
 
-        <div class="agendar">
-          <button type="submit">Agendar</button>
-        </div>
       </form>
+      <div class="agendar">
+        <a href="../tela-home/home.html"><button type="submit">Agendar</button></a>
+      </div>
     </main>
   </body>
 </html>

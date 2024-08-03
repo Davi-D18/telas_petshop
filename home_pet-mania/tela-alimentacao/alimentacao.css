@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "League Spartan";
+  
+}
+
+body, .resultados div {
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  max-width: 95vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vh;
+  background-color: #a559e7;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 0px 4px black;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > .voltar, .botoes > a > img {
+  width: 43px;
+}
+
+h1 {
+  margin-top: 5vh;
+  font-size: 35px;
+}
+
+main {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.produtos {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 4rem;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.produtos > div > img {
+  width: 140px;
+  border-radius: 8px;
+}
+
+.produtos > div > p {
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.produtos > div:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 10px;
+  transform: scale(1.025);
+  background-color: white;
+}
+
+.produtos > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

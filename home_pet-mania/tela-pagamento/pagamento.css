@@ -21,9 +21,10 @@ main {
 
 
 button {
-    padding:5px;
+    padding:3px;
     background-color: grey;
     margin:1px;
+    font-size: 18px;
     justify-items: center;
     font-weight: bold;
     cursor: pointer;
