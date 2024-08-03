@@ -39,7 +39,7 @@ header {
     height: 100px;
     border: 1px solid black;
     border-radius: 50%;
-
+    background-color: rgb(253, 149, 130);
 }
 
 .foto {
