@@ -122,3 +122,51 @@ p {
   margin-top: 2vh;
   text-align: center;
 }
+
+@media (max-width:600px) {
+  main {
+    max-width: 95vw;
+  }
+  
+  .categorias {
+   flex-wrap: wrap;
+   gap: 0px;
+   margin-top: 10vh;
+  }
+  
+  .categorias > div {
+    width: 30%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .categorias > div > a > img {
+    width: 85px;
+    height: 85px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  .anuncios > div {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .anuncios {
+    margin-top: 4.5rem ;
+    gap: 1.4rem;
+  }
+  
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .barra-de-pesquisa {
+    gap: 0px;
+  }
+}

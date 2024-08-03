@@ -71,3 +71,19 @@ button {
   cursor: pointer;
   border: 1px solid black;
 }
+
+@media (max-width: 600px) {
+  select {
+    width: 70vw;
+  }
+  
+  .agendar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .agendar > a > button {
+    padding: 12px;
+    font-size: 15px;
+  }
+}

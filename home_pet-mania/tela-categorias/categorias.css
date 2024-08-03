@@ -115,22 +115,19 @@ p {
   }
 }
 
-@media (width<=550px) {
-  header {
-    width: 85vw;
-  }
-
+@media (width<=600px) {
   .categorias {
-    grid-template-columns: repeat(2, 15vw);
+    grid-template-columns: repeat(3, 8vw);
     column-gap: 4rem;
+    height: 55vh;
   }
 
   .categorias > .produto {
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 
   .categorias > .produto > p {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .categorias > .produto > .imagem-produto {

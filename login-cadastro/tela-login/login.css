@@ -94,3 +94,15 @@ footer > a:hover {
   text-decoration: underline;
   transition: all 0.5s;
 }
+
+@media (max-width:600px) {
+  body {
+    background-position: center;
+  }
+  
+  main{
+    max-width: 85vw;
+    margin-top: 9vh;
+  }
+  
+}
