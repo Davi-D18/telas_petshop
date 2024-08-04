@@ -38,7 +38,7 @@ header {
 
 form {
   margin-top: 10vh;
-  margin-left: 6vw;
+  margin-left: 10vw;
 }
 
 .especie, .servico, .data {
@@ -59,6 +59,10 @@ form > div > select {
 select:focus {
   box-shadow: 1px 1px 1px black;
   transition: all 0.3s;
+}
+
+.agendar {
+  margin-left: 33vw;
 }
 
 button {
@@ -82,7 +86,6 @@ button {
   }
   
   .agendar {
-    display: flex;
     justify-content: center;
   }
   
