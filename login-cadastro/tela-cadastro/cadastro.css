@@ -64,4 +64,8 @@ button:hover {
   body {
     background-position: center;
   }
+  
+  main{
+    margin-top: 13vh;
+  }
 }

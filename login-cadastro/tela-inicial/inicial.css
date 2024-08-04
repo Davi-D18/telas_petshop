@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+  font-family: "league spartan";
+}
+
+body {
+  background-image: url(./assets/fundo.jpg);
+  background-position: center;
+}
+
+.container {
+  border-radius: 8px;
+  padding-bottom: 20px;
+  max-width: 41vw;
+  margin: auto;
+  margin-top: 12dvh;
+  backdrop-filter: blur(6px);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+  margin-top: 9vh;
+  border-radius: 20px; /* Bordas arredondadas */
+} 
+
+p{
+  margin-top: 0px;
+}
+
+button {
+  padding: 8px;
+  width: 100px;
+  margin: auto;
+  background-color: #C7E891;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-top: 1.6rem;
+}
+
+p {
+  text-align: center;
+  margin: 0px 20px;
+}
+
+button:hover {
+  box-shadow: -1px 3px 1px rgb(100, 100, 100);
+  transition: all 0.3s;
+}
+
+img {
+  width: 270px; 
+  filter: drop-shadow(2px 6px 10px rgba(0, 0, 0, 0.808));
+}
+
+@media (max-width:600px) {
+  body {
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 85vw;
+    margin-top: 16vh;
+  }
+}
