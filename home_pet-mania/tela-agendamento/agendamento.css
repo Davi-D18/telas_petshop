@@ -73,6 +73,10 @@ button {
 }
 
 @media (max-width: 600px) {
+  form{
+    margin-left: 6vw;
+  }
+  
   select {
     width: 70vw;
   }
