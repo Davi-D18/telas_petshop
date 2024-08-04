@@ -2,16 +2,19 @@
 
 * {
   font-family: "League Spartan";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
-  display: inline-flex;
+  display: flex;
   background-color: #a559e7;
+  box-shadow: 0px 0px 4px black;
+  max-width: 95vw;
+  margin: auto;
+  margin-top: 2vh;
   border-radius: 10px;
-  width: 100%;
-  justify-content: left;
-  margin-bottom: 20px;
-  gap: 20px;
 }
 
 h1 {
@@ -25,17 +28,16 @@ main {
   max-width: 80vw;
   margin: auto;
   margin-top: 4rem;
-  backdrop-filter: blur(8px);
 }
 
 form {
-  padding: 20px;
-  margin: 20px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4rem;
 }
+
 input {
   border-radius: 5px;
   padding: 8px;
@@ -85,7 +87,7 @@ footer > a {
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin: 20px;
+  margin: 15px;
 }
 .cidade,
 .rua,
@@ -96,9 +98,23 @@ footer > a {
 .estado,
 .cidade,
 label {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
-.cep-ponto {
-  margin-top: 15px;
+.cep-ponto, .numero-cidade{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:600px) {
+  form{
+   gap: 10px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+  }
 }

@@ -33,3 +33,58 @@ button:hover {
   box-shadow: -1px 3px 1px rgb(193, 190, 190);
   transition: all 0.3s;
 }
+
+.patinha {
+  margin-right: 5px;
+}
+
+.gato {
+  display: none;
+}
+
+@keyframes animacao-gato {
+  0% {
+    opacity: 0;
+  }
+  
+  20% {
+    opacity: 0;
+  }
+  
+  40% {
+    opacity: 0;
+  }
+  
+  50% {
+    opacity: 0.5;
+  }
+  
+  75% {
+    opacity: 0.7;
+  }
+  
+  100% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 600px) {
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .gato > img {
+    width: 100px;
+  }
+  
+  .gato {
+    margin-top: 2.5rem;
+    animation: animacao-gato 4s linear 1;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s;
+  }
+}
