@@ -28,6 +28,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 90vw;
+    margin: auto;
 }
 
 .voltar {
@@ -72,8 +74,10 @@ header {
 }
 
 .Sair {
-    margin-left: 50%;
-    margin-top: 7rem;
+    /* margin-left: 50%;
+    margin-top: 7rem; */
+    display: flex;
+    justify-content: center;   
 }
 
 .Sair button {
@@ -95,12 +99,12 @@ header {
 
 @media (max-width:600px) {
   .Sair {
-    margin-left: 13vh;
-    margin-top: 5vh;
+    /* margin-left: 13vh; */
+    margin-top: 10vh;
   }
   
   .Sair > a > button {
     padding: 14px;
-    font-size: 16px;
+    font-size: 17px;
   }
 }
