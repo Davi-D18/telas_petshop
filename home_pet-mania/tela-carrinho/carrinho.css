@@ -7,7 +7,9 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 85px;
+  max-width: 95vw;
 }
 
 .voltar {
@@ -44,23 +46,13 @@ a {
 
 table {
   width: 100%;
-
 }
-
-thead {
-  tr {}
 
   th {
     text-align: left;
     text-transform: uppercase;
     color: 666;
-
   }
-}
-
-tbody {
-  td {}
-}
 
 .produto {
   display: flex;
@@ -81,8 +73,6 @@ button {
   cursor: pointer;
 }
 
-.tabelapdt {}
-
 table,
 footer {
   max-width: 80vw;
@@ -100,10 +90,6 @@ aside {
       margin-top: 66px;
       font-size: 20px;
     }
-
-    .infor {}
-
-    footer {}
   }
 
   .buy {
@@ -152,4 +138,10 @@ aside {
   color: #425c18;
   font-weight: bolder;
   margin-left: 5px;
+}
+
+@media (max-width:600px) {
+  table, aside{
+    max-width: 95vw;
+  }
 }
