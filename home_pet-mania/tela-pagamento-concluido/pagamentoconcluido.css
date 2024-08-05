@@ -91,11 +91,19 @@ button:hover {
 
 /* Tablets */
 @media (min-width: 601px) and (max-width: 1000px) {
+  body {
+    cursor: pointer;
+  }
+
   .gato {
     margin-top: 2.5rem;
     display: flex;
     justify-content: center;
     animation: animacao-gato 4s linear 1;
     transition: all 0.5s;
+  }
+
+  .gato > img {
+    width: 150px;
   }
 }
