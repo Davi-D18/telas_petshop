@@ -35,8 +35,8 @@ header > .voltar, .botoes > a > img {
 }
 
 .barra-pesquisa > input {
-  padding: 10px;
-  border-radius: 15px;
+  padding: 15px;
+  border-radius: 20px;
   width: 500px;
 }
 
@@ -91,8 +91,8 @@ main {
   }
   
   .produtos {
-    grid-template-columns: repeat(auto-fit, 143px);
-    column-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, 125px);
+    column-gap: 1.3rem;
     row-gap: 1.5rem;
   }
   
@@ -102,5 +102,11 @@ main {
   
   p {
     font-size: 14px;
+  }
+}
+
+@media (width >= 601px) and (max-width: 1000px) {
+  .barra-pesquisa > input {
+    max-width: 60vw;
   }
 }
