@@ -96,7 +96,7 @@ footer > a {
   align-items: left;
   margin: 15px;
 }
-.cidade,
+/* .cidade,
 .rua,
 .bairro,
 .pontodeferencia,
@@ -105,8 +105,8 @@ footer > a {
 .estado,
 .cidade,
 label {
-  /* margin-bottom: 5px; */
-}
+  margin-bottom: 5px;
+} */
 
 .cep-ponto, .numero-cidade{
   display: flex;
